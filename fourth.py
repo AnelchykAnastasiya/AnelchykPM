@@ -12,3 +12,8 @@ for r in sys.argv[1:]:
 
 for i in range(1,len(sys.argv)):
 	logarithm(sys.argv[i])
+
+j = 1
+while j<len(sys.argv):
+	logarithm(sys.argv[j])
+	j +=1
