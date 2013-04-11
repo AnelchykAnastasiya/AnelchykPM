@@ -17,3 +17,13 @@ j = 1
 while j<len(sys.argv):
 	logarithm(sys.argv[j])
 	j +=1
+
+i = 1
+while 1:
+	try:
+		logarithm(sys.argv[i])
+		i +=1
+	except IndexError:
+        	break
+    
+		
