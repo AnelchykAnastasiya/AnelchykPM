@@ -6,5 +6,9 @@ def logarithm(n):
 		print('ln('+"%d" %(float(n))+') is illegal')
 	else:
 		print('ln('+"%d" %(float(n))+') = ' "%g" %(math.log(float(n))))
+
 for r in sys.argv[1:]:
 	logarithm(r)
+
+for i in range(1,len(sys.argv)):
+	logarithm(sys.argv[i])
